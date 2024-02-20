@@ -61,6 +61,9 @@ const CompCreateBlog = () => {
                         type="text"
                         onChange={(e) => setTitle(e.target.value)}
                         className="form-control"
+                        maxLength={100}
+                        pattern="[^<\^>]+"
+                        required
                     />
                 </div>
                 <div className="mb-3">
@@ -70,6 +73,9 @@ const CompCreateBlog = () => {
                         type="text"
                         onChange={(e) => setContent(e.target.value)}
                         className="form-control"
+                        maxLength={150}
+                        pattern="[^<\^>]+"
+                        required
                     />
                 </div>
                 <div className="mb-3">
