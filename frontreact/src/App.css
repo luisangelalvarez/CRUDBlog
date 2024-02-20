@@ -1,0 +1,62 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 15vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+#AppHeader{
+  padding: 5px;
+  padding-left: 30px;
+  padding-right: 30px;
+  box-shadow: 0 0 5px cyan;
+}
+#AppHeader:hover{
+  box-shadow: 0 0 5px cyan,
+  0 0 25px cyan,
+  0 0 50px cyan,
+  0 0 100px cyan,
+  0 0 200px cyan;
+  color: cyan;
+}
+
+td{
+  text-align: left;
+}
+input{
+  max-width: 300px;
+  background-color: rgb(209, 237, 238) !important;
+}
+select{
+  max-width: 300px;
+  background-color: rgb(209, 237, 238) !important;
+}
+textarea{
+  max-width: 600px;
+  min-height: 150px !important;
+  background-color: rgb(209, 237, 238) !important;
+}
+tr:nth-child(even) td {
+  background-color: #edeeee !important;
+}
+#tbEdit{
+  margin: 2%;
+  padding: 2%;
+  background-color: rgb(232, 243, 246);
+}
+div label{
+  width: 100%;
+  text-align: left;
+  font-weight: bold;
+  color: brown;
+}
+.container{
+  padding-top: 10px;
+}
